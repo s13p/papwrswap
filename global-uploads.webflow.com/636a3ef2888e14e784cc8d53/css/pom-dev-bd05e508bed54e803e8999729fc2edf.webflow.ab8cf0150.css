@@ -2540,7 +2540,7 @@ li {
 }
 
 .hero-section {
-  background-image: url("./../../../BG-07.png");
+
   background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3045,7 +3045,7 @@ li {
 }
 
 .tweet-card.first-tweet {
-  z-index: 3;
+  z-index: 6;
   align-items: baseline;
   margin-top: -128px;
   margin-bottom: 64px;
@@ -3053,14 +3053,22 @@ li {
 }
 
 .tweet-card.second-tweet {
-  z-index: 2;
+  z-index: 5;
   margin-top: -64px;
   bottom: 128px;
 }
 
 .tweet-card.third-tweet {
-  z-index: 1;
+  z-index: 4;
   bottom: 64px;
+}
+.tweet-card.fourth-tweet {
+  z-index: 3;
+  bottom: 32px;
+}
+.tweet-card.fifth-tweet {
+  z-index: 2;
+  bottom: 5px;
 }
 
 .tweet-text {
@@ -4551,9 +4559,9 @@ li {
   }
 
   .headline-hero {
-    height: 0;
+    height: 100vh;
     min-height: 430px;
-  }
+      }
 
   .button-header {
     grid-column-gap: 8px;
